@@ -1,5 +1,5 @@
 # A simple routing-demo with Express 
 
-===== Temperature by ZIP code using Dark Sky API =====
+* Temperature by ZIP code using Dark Sky API
 
 
