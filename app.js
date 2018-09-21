@@ -4,7 +4,7 @@ const zipdb = require('zippity-do-dah')
 const ForecastIo = require('forecastio')
 
 const app = express()
-const weather = new ForecastIo("e0abee69e3809814c27d15814c3a6876") // creamos un objeto de tipo forecastio con la key que nos da la pagina
+const weather = new ForecastIo("secret_key_from_dark_sky") // creamos un objeto de tipo forecastio con la key que nos da la pagina
 
 app.use(express.static(path.resolve(__dirname, 'public'))); // Sirve documentos estaticos en public
 
